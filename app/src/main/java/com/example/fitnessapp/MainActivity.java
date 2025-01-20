@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
         TextView newLastName = findViewById(R.id.textView2);
         TextView newEmail = findViewById(R.id.textView3);
 
-        String to_update = "First Name: " + firstName.getText().toString();
+        String to_update = "Names: " + firstName.getText().toString();
         newFirstName.setText(to_update);
         to_update = "Last Name: " + lastName.getText().toString();
         newLastName.setText(to_update);
